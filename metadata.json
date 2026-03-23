@@ -1,0 +1,5 @@
+{
+  "name": "OgaForMarket",
+  "description": "A trust-powered platform connecting busy people with reliable market runners for stress-free shopping and delivery.",
+  "requestFramePermissions": ["geolocation"]
+}

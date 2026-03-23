@@ -62,16 +62,16 @@ export default function RequestForm() {
   };
 
   return (
-    <section id="request" className="py-20 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: '#F9FAFB' }}>
+    <section id="request" className="py-16 md:py-32 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: '#F9FAFB' }}>
       <div className="max-w-2xl mx-auto">
         <h2
-          className="text-4xl font-bold text-center mb-4 text-balance"
+          className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-3 md:mb-4 text-balance"
           style={{ color: '#1F2937' }}
         >
           Request a Runner
         </h2>
         <p
-          className="text-xl text-center mb-12 text-balance"
+          className="text-base sm:text-lg md:text-xl text-center mb-10 md:mb-16 text-balance leading-relaxed"
           style={{ color: '#6B7280' }}
         >
           Fill in your details and we will match you with a trusted runner
@@ -86,7 +86,7 @@ export default function RequestForm() {
           </div>
         )}
 
-        <form onSubmit={handleSubmit} className="space-y-6">
+        <form onSubmit={handleSubmit} className="space-y-5 md:space-y-6">
           <div>
             <label
               htmlFor="name"
